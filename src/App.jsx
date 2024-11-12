@@ -5,7 +5,7 @@ const App = () => {
     //dynamic components importer
     async function importComponent(componentName) {
         const Component = await React.lazy(() =>
-            import(`./components/${componentName}.js`)
+            import(`./components/${componentName}`)
         );
         return <Component />;
     }
