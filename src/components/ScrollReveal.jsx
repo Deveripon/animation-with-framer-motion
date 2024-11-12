@@ -13,7 +13,7 @@ function Box({ text }) {
                 },
             }}
             viewport={{ once: false }}
-            className='box mt-[700px] bg-teal-500 text-center flex items-center justify-center text-white h-[200px]  w-[200px] rounded-md'>
+            className='box mt-[10px] bg-teal-500 text-center flex items-center justify-center text-white h-[200px]  w-[200px] rounded-md'>
             {text}
         </motion.div>
     );
